@@ -1,0 +1,21 @@
+header{
+  height: 100px;
+  background: #344f60;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header ol{
+  list-style: none;
+  display: flex;
+  font-size: 25px;
+}
+header a{
+  display: inherit;
+  text-decoration: none;
+  list-style: none;
+  color: white;
+  padding: 0 20px;
+  align-items: center;
+}
