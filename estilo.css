@@ -1,3 +1,15 @@
+h1{
+  font-size: 40px;
+  margin-bottom: 15px;
+  margin-top:0;
+  height: 50px;
+  font-family: sans-serif;
+}
+
+h1 strong{
+  text-decoration: underline;
+}
+
 header{
   height: 100px;
   background: #344f60;
@@ -18,4 +30,38 @@ header a{
   color: white;
   padding: 0 20px;
   align-items: center;
+}
+
+.hero{
+  color: white;
+  background: #344f60;
+  height:300px;
+  text-align: ceter;
+  padding-top: 70px;
+}
+
+.hero p{
+  font-size: 25px;
+  margin-top: 0;
+}
+
+.hero a{
+  color: white;
+  text-decoration: none;
+  border: 1px solid #fe504f;
+  border-radius: 5px;
+  padding: 6px;
+  background: #fe504f;
+}
+
+.hero_container{
+  padding-left: 355px;
+}
+
+p{
+  font-family: sans-serif;
+}
+
+a{
+  font-family: sans-serif;
 }
