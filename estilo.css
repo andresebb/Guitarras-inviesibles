@@ -84,6 +84,7 @@ header a{
   margin: 0 auto;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 30px;
 }
 
 .image_container{
@@ -105,6 +106,9 @@ header a{
   font-size: 20px;
 }
 
+.invieacustica{
+  padding-bottom: 35px;
+}
 p{
   font-family: sans-serif;
 }
