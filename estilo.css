@@ -10,6 +10,23 @@ h1 strong{
   text-decoration: underline;
 }
 
+h2{
+  color: #1f313d;
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+h3{
+  color: #1f313d;
+  font-size: 45px;
+  font-family: sans-serif;
+  font-stretch: condensed;
+  border-bottom: 4px dashed #1f313d;
+  margin: 0;
+  margin-right: 111px;
+}
+
+
 header{
   height: 100px;
   background: #344f60;
@@ -56,6 +73,36 @@ header a{
 
 .hero_container{
   padding-left: 355px;
+}
+
+
+.container_guitarras{
+  display: flex;
+  border: 2px solid black;
+  width: 900px;
+  height: 320px;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.image_container{
+  display: inherit;
+  align-items: center;
+  padding-bottom: 15px;
+}
+
+.border_subtitle{
+  margin-bottom: 1px solid black;
+}
+
+.text_container{
+  padding: 30px;
+}
+
+.text_container p{
+  color: #1f313d;
+  font-size: 20px;
 }
 
 p{
